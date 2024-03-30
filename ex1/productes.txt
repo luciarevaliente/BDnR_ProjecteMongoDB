@@ -1,0 +1,21 @@
+{
+  "_id": ObjectId("..."),
+  "codi": "001",
+  "nom": "Sofà",
+  "fabricant": "Fàbrica Mobles S.A.",
+  "categoria": "Mobiliari",
+  "pes": 30,
+  "preu": 500,
+  "productes_incluits": [
+    {
+      "id_producte": ObjectId("..."),
+      "nom": "Coixins",
+      "quantitat": 2
+    },
+    {
+      "id_producte": ObjectId("..."),
+      "nom": "Respatller",
+      "quantitat": 1
+    }
+  ]
+}
