@@ -1,0 +1,20 @@
+{
+  "_id": ObjectId("..."),  //Id del tiquet
+  "id_client": ObjectId("..."),  //Referència a l'Id del client
+  "productes": [  //Referència extesa productes
+    {
+      "codi": "001",
+      "nom": "Sofà",
+      "quantitat": 1,
+      "preu_unitari": 500
+    },
+    {
+      "codi": "002",
+      "nom": "Taula",
+      "quantitat": 1,
+      "preu_unitari": 200
+    }
+  ],
+  "data": ISODate("2024-03-30T14:00:00Z"),
+  "total": 700
+}
