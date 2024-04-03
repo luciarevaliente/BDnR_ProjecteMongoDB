@@ -1,0 +1,204 @@
+{
+  "codi": "001",
+  "nom": "Sofà",
+  "fabricant": "Fàbrica Mobles S.A.",
+  "categoria": "Mobiliari",
+  "pes": 30,
+  "preu": 500,
+  "productes_inclosos": [
+    {
+      "nom": "Coixins",
+      "quantitat": 2
+    },
+    {
+      "nom": "Respatller",
+      "quantitat": 1
+    }
+  ]
+},
+
+{
+  "codi": "002",
+  "nom": "Escriptori",
+  "fabricant": "Anne Littlefaucet S.L.",
+  "categoria": "Mobiliari",
+  "pes": 10,
+  "preu": 270,
+  "productes_inclosos": [
+    {
+      "nom": "Potes metàl·liques",
+      "quantitat": 4
+    },
+    {
+      "nom": "Contraxapat blanc 80x200",
+      "quantitat": 1
+    },
+    {
+      "nom": "Clau Allen",
+      "quantitat": 2
+    },
+    {
+      "nom": "Cargols hexagonals",
+      "quantitat": 12
+    },
+    {
+      "nom": "Escaires",
+      "quantitat": 3
+    }  
+  ]
+},
+
+{
+  "codi": "003",
+  "nom": "Kit Pintura",
+  "fabricant": "ART ATTACK",
+  "categoria": "Art",
+  "pes": 12,
+  "preu": 235,
+  "productes_inclosos": [
+    {
+      "nom": "Cavallet Picasso",
+      "quantitat": 1
+    },
+    {
+      "nom": "Llençol",
+      "quantitat": 5
+    },
+    {
+      "nom": "Pintures",
+      "quantitat": 20
+    },
+    {
+      "nom": "Pinzells",
+      "quantitat": 8
+    },
+    {
+      "nom": "Paper A3 190g",
+      "quantitat": 5
+    }  
+  ]
+},
+
+{
+  "codi": "004",
+  "nom": "Disc Coldplay",
+  "fabricant": "sthRecords",
+  "categoria": "Música",
+  "pes": 1,
+  "preu": 65,
+  "productes_inclosos": [
+    {
+      "nom": "Disc firmat",
+      "quantitat": 1
+    },
+    
+    {
+      "nom": "Poster",
+      "quantitat": 1
+    }   
+  ]
+},
+
+{
+  "codi": "005",
+  "nom": "Kit de Guitarra Elèctrica",
+  "fabricant": "BruauBruau",
+  "categoria": "Instruments",
+  "pes": 4,
+  "preu": 350,
+  "productes_inclosos": [
+    {
+      "nom": "Guitarra Elèctrica",
+      "quantitat": 1
+    },
+    {
+      "nom": "Amplificador",
+      "quantitat": 1
+    },
+    {
+      "nom": "Cable d'amplificador",
+      "quantitat": 1
+    },
+    {
+      "nom": "Pua",
+      "quantitat": 10
+    }
+  ]
+},
+
+{
+  "codi": "006",
+  "nom": "Nintendo Switch",
+  "fabricant": "Nintendo",
+  "categoria": "Videojocs",
+  "pes": 2,
+  "preu": 350,
+  "productes_inclosos": [
+    {
+      "nom": "Consola Nintendo Switch",
+      "quantitat": 1
+    },
+    
+    {
+      "nom": "Comandament Joy-Con",
+      "quantitat": 2
+    },
+    
+    {
+      "nom": "Cable HDMI",
+      "quantitat": 1
+    }
+  ]
+},
+
+{
+  "codi": "007",
+  "nom": "Ordinador Portàtil",
+  "fabricant": "HP",
+  "categoria": "Informàtica",
+  "pes": 2,
+  "preu": 800,
+  "productes_inclosos": [
+    {
+      "nom": "Ordinador portàtil HP",
+      "quantitat": 1
+    },
+    {
+      "nom": "Adaptador",
+      "quantitat": 1
+    },
+    {
+      "nom": "Bateria",
+      "quantitat": 1
+    }
+  ]
+},
+{
+  "codi": "008",
+  "nom": "Kit per a Plantes",
+  "fabricant": "GardenTech+",
+  "categoria": "Jardineria",
+  "pes": 4,
+  "preu": 50,
+  "productes_inclosos": [
+    {
+      "nom": "Macetes",
+      "quantitat": 3
+    },
+    {
+      "nom": "Substrat per a plantes",
+      "quantitat": 1
+    },
+    {
+      "nom": "Regadora",
+      "quantitat": 1
+    },
+    {
+      "nom": "Eines de jardineria",
+      "quantitat": 1
+    }
+  ]
+}
+
+
+
