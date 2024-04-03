@@ -1,0 +1,190 @@
+{
+  "_id": 100,  
+  "DNI": "12345678A",
+  "nom": "Lucy",
+  "cognom": "Superbrave",
+  "edat": 35,
+  "sexe": "F",
+  "codi_postal": "08001",
+  "poblacio": "Barcelona",
+  "adreça": "Carrer Major, 123",
+  "email": "lucy@example.com",
+  "targetes": [
+    {
+      "tipus": "Visa",
+      "numero": "1234 5678 9012 3456"
+    },
+    {
+      "tipus": "Mastercard",
+      "numero": "9876 5432 1098 7654"
+    }
+  ],
+  
+  "cotxes": [
+    {
+      "matricula": "1234 ABC",
+      "marca": "Toyota",
+      "model": "Corolla",
+      "tipus": "Sedŕ",
+      "color": "Negre",
+      "distinctiu_ambiental": "C"
+    },
+    {
+      "matricula": "5678 XYZ",
+      "marca": "Honda",
+      "model": "Civic",
+      "tipus": "Coupe",
+      "color": "Vermell",
+      "distinctiu_ambiental": "B"
+    }
+  ]
+},
+
+{
+  "_id": 101, 
+  "DNI": "52637481K",
+  "nom": "Christian",
+  "cognom": "King",
+  "edat": 23,
+  "sexe": "M",
+  "codi_postal": "08020",
+  "poblacio": "Barcelona",
+  "adreça": "Carrer Ample, 43",
+  "email": "chris@example.com",
+  "targetes": [
+    {
+      "tipus": "Visa",
+      "numero": "1425 6473 2818 3901"
+    }
+  ],
+  
+  "cotxes": [
+    {
+      "matricula": "1234 RFG",
+      "marca": "BMW",
+      "model": "i3",
+      "tipus": "Elèctric",
+      "color": "Blanc",
+      "distinctiu_ambiental": "0"
+    },
+  ]
+},
+
+{
+  "_id": 102,
+  "DNI": "828174392W",
+  "nom": "John",
+  "cognom": "Sunny",
+  "edat": 59,
+  "sexe": "M",
+  "codi_postal": "AD500",
+  "poblacio": "Andorra La Vella",
+  "adreça": "Carrer Bosquet, 2",
+  "email": "john@example.ad",
+  "targetes": [
+    {
+      "tipus": "Mastercard",
+      "numero": "6372 5464 8010 0092"
+    }
+  ],
+  
+  "cotxes": [
+    {
+      "matricula": "5901E",
+      "marca": "Audi",
+      "model": "Quattro",
+      "tipus": "Coupé",
+      "color": "Vermell",
+      "distinctiu_ambiental": "C"
+    },
+  ]
+},
+
+
+{
+  "_id": 103,
+  "DNI": "63729880R",
+  "nom": "Aranthasoo",
+  "cognom": "Michaelson",
+  "edat": 31,
+  "sexe": "F",
+  "codi_postal": "08201",
+  "poblacio": "Sabadell",
+  "adreça": "Rambla, 101",
+  "email": "aran@example.com",
+  "targetes": [
+    {
+      "tipus": "Mastercard",
+      "numero": "6372 5464 8010 0092"
+    },
+
+    {
+      "tipus": "Visa",
+      "numero": "2738 9102 8547 3819"
+    }
+  ],
+  
+  "cotxes": [
+    {
+      "matricula": "1224 XYW",
+      "marca": "Toyota",
+      "model": "Camry",
+      "tipus": "Sedan",
+      "color": "Silver",
+      "distinctiu_ambiental": "A"
+    },
+
+    {
+      "matricula": "8273 BWQ",
+      "marca": "Ferrari",
+      "model": "488 GTB",
+      "tipus": "Esportiu",
+      "color": "Blanc",
+      "distinctiu_ambiental": "ECO"
+    }
+  ]
+},
+
+{
+  "_id": 104,
+  "DNI": "84771623X",
+  "nom": "Raymond",
+  "cognom": "Channel",
+  "edat": 78,
+  "sexe": "M",
+  "codi_postal": "08022",
+  "poblacio": "Barcelona",
+  "adreça": "Diagonal, 443",
+  "email": "raymond@channel.cat",
+  "targetes": [
+    {
+      "tipus": "Mastercard",
+      "numero": "7283 9294 0192 6541"
+    },
+
+    {
+      "tipus": "Visa",
+      "numero": "2019 6472 8477 1746"
+    }
+  ],
+  
+  "cotxes": [
+    {
+      "matricula": "9876 ZYX",
+      "marca": "Porsche",
+      "model": "911 Carrera",
+      "tipus": "Esportiu",
+      "color": "Negre",
+      "distinctiu_ambiental": "B"
+    },
+
+    {
+      "matricula": "5432 QWE",
+      "marca": "Maserati",
+      "model": "Ghibli",
+      "tipus": "Berlina",
+      "color": "Blau",
+      "distinctiu_ambiental": "C"
+    }
+  ]
+}
