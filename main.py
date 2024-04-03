@@ -39,7 +39,7 @@ def insert_data(json_file):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Inserim dades a una base de dades MongoDB.')
-    parser.add_argument('-f', '--file', type=str, help='Nombre del archivo JSON de entrada')
+    parser.add_argument('-f', '--file', type=str, help='Nom arxiu JSON de dades')
 
     args = parser.parse_args()
 
