@@ -1,12 +1,12 @@
 {
   "_id": ObjectId("..."),
   "codi": "001",
-  "nom": "Sof‡",
-  "fabricant": "F‡brica Mobles S.A.",
+  "nom": "Sof√†",
+  "fabricant": "F√†brica Mobles S.A.",
   "categoria": "Mobiliari",
   "pes": 30,
   "preu": 500,
-  "productes_incluits": [
+  "productes_inclosos": [
     {
       "id_producte": ObjectId("..."),
       "nom": "Coixins",
