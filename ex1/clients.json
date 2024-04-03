@@ -1,10 +1,10 @@
 {
-  "_id": ObjectId(100),  //Creem un id pel client
+  "_id": 100,  
   "DNI": "12345678A",
   "nom": "Lucy",
   "cognom": "Superbrave",
   "edat": 35,
-  "sexe": "F",  //M si és masculí i F si és femení
+  "sexe": "F",
   "codi_postal": "08001",
   "poblacio": "Barcelona",
   "adreça": "Carrer Major, 123",
@@ -41,12 +41,12 @@
 },
 
 {
-  "_id": ObjectId(101),  //Creem un id pel client
+  "_id": 101, 
   "DNI": "52637481K",
   "nom": "Christian",
   "cognom": "King",
   "edat": 23,
-  "sexe": "M",  //M si és masculí i F si és femení
+  "sexe": "M",
   "codi_postal": "08020",
   "poblacio": "Barcelona",
   "adreça": "Carrer Ample, 43",
@@ -71,12 +71,12 @@
 },
 
 {
-  "_id": ObjectId(102),  //Creem un id pel client
+  "_id": 102,
   "DNI": "828174392W",
   "nom": "John",
   "cognom": "Sunny",
   "edat": 59,
-  "sexe": "M",  //M si és masculí i F si és femení
+  "sexe": "M",
   "codi_postal": "AD500",
   "poblacio": "Andorra La Vella",
   "adreça": "Carrer Bosquet, 2",
@@ -102,12 +102,12 @@
 
 
 {
-  "_id": ObjectId(103),  //Creem un id pel client
+  "_id": 103,
   "DNI": "63729880R",
   "nom": "Aranthasoo",
   "cognom": "Michaelson",
   "edat": 31,
-  "sexe": "F",  //M si és masculí i F si és femení
+  "sexe": "F",
   "codi_postal": "08201",
   "poblacio": "Sabadell",
   "adreça": "Rambla, 101",
@@ -146,12 +146,12 @@
 },
 
 {
-  "_id": ObjectId(104),  //Creem un id pel client
+  "_id": 104,
   "DNI": "84771623X",
   "nom": "Raymond",
   "cognom": "Channel",
   "edat": 78,
-  "sexe": "M",  //M si és masculí i F si és femení
+  "sexe": "M",
   "codi_postal": "08022",
   "poblacio": "Barcelona",
   "adreça": "Diagonal, 443",
