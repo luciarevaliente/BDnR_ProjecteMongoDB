@@ -187,4 +187,88 @@
       "distinctiu_ambiental": "C"
     }
   ]
+},
+
+{
+  "_id": 105,
+  "DNI": "23456789A",
+  "nom": "Lionel",
+  "cognom": "Messi",
+  "edat": 34,
+  "sexe": "M",
+  "codi_postal": "08010",
+  "poblacio": "Barcelona",
+  "adreça": "Avinguda Diagonal, 123",
+  "email": "leo@messi.com",
+  "targetes": [
+    {
+      "tipus": "Mastercard",
+      "numero": "1234 5678 9012 3456"
+    }
+  ],
+  "cotxes": [
+    {
+      "matricula": "1214 TFC",
+      "marca": "Ferrari",
+      "model": "488 GTB",
+      "tipus": "Esportiu",
+      "color": "Blau"
+    }
+  ]
+},
+
+{
+  "_id": 106,
+  "DNI": "34567890B",
+  "nom": "Carles",
+  "cognom": "Puigdemont",
+  "edat": 59,
+  "sexe": "M",
+  "codi_postal": "17001",
+  "poblacio": "Girona",
+  "adreça": "Carrer Major, 1",
+  "email": "carles@puigdemont.com",
+  "targetes": [
+    {
+      "tipus": "Visa",
+      "numero": "9876 5432 1098 7654"
+    }
+  ],
+  "cotxes": [
+    {
+      "matricula": "5698 XYZ",
+      "marca": "Mercedes",
+      "model": "Classe A",
+      "tipus": "Compacte",
+      "color": "Negre"
+    }
+  ]
+},
+
+{
+  "_id": 107,
+  "DNI": "45678901C",
+  "nom": "Mariano",
+  "cognom": "Rajoy",
+  "edat": 66,
+  "sexe": "M",
+  "codi_postal": "28001",
+  "poblacio": "Madrid",
+  "adreça": "Calle Génova, 13",
+  "email": "mariano@rajoy.es",
+  "targetes": [
+    {
+      "tipus": "Visa",
+      "numero": "5432 1098 7654 3210"
+    }
+  ],
+  "cotxes": [
+    {
+      "matricula": "9876 ZYX",
+      "marca": "Audi",
+      "model": "A4",
+      "tipus": "Sedà",
+      "color": "Gris"
+    }
+  ]
 }
