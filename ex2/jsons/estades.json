@@ -1,0 +1,100 @@
+{
+  "_id": 1000,
+  "id_client": 102,
+  "matricula_cotxe": "5901E",
+  
+  "planta": 1,
+  "zona": "A",
+  "numero": 15,
+  "carregador_cotxe_electric": true,
+  
+  "porta_entrada": 2,
+  "porta_sortida": 3,
+  "data_i_hora_entrada": "2024-03-30T10:00:00Z",
+  "data_i_hora_sortida": "2024-03-30T12:00:00Z"
+},
+
+{
+  "_id": 1001,
+  "id_client": 103,
+  "matricula_cotxe": "1234 RFG",
+  "planta": 2,
+  "zona": "B",
+  "numero": 20,
+  "carregador_cotxe_electric": false,
+  "porta_entrada": 1,
+  "porta_sortida": 2,
+  "data_i_hora_entrada": "2024-03-30T10:30:00Z",
+  "data_i_hora_sortida": "2024-03-30T12:30:00Z"
+},
+
+{
+  "_id": 1002,
+  "id_client": 102,
+  "matricula_cotxe": "1224 XYW",
+  "planta": 1,
+  "zona": "A",
+  "numero": 25,
+  "carregador_cotxe_electric": false,
+  "porta_entrada": 2,
+  "porta_sortida": 3,
+  "data_i_hora_entrada": "2024-04-01T09:15:00Z",
+  "data_i_hora_sortida": "2024-04-01T11:45:00Z"
+},
+
+{
+  "_id": 1003,
+  "id_client": 103,
+  "matricula_cotxe": "8273 BWQ",
+  "planta": 2,
+  "zona": "C",
+  "numero": 10,
+  "carregador_cotxe_electric": true,
+  "porta_entrada": 3,
+  "porta_sortida": 1,
+  "data_i_hora_entrada": "2024-04-02T13:00:00Z",
+  "data_i_hora_sortida": "2024-04-02T16:30:00Z"
+},
+
+{
+  "_id": 1004,
+  "id_client": 104,
+  "matricula_cotxe": "9876 ZYX",
+  "planta": 2,
+  "zona": "D",
+  "numero": 5,
+  "carregador_cotxe_electric": true,
+  "porta_entrada": 1,
+  "porta_sortida": 2,
+  "data_i_hora_entrada": "2024-04-03T08:45:00Z",
+  "data_i_hora_sortida": "2024-04-03T12:15:00Z"
+},
+
+{
+  "_id": 1005,
+  "id_client": 101,
+  "matricula_cotxe": "5432 QWE",
+  "planta": 1,
+  "zona": "B",
+  "numero": 12,
+  "carregador_cotxe_electric": false,
+  "porta_entrada": 2,
+  "porta_sortida": 1,
+  "data_i_hora_entrada": "2024-04-04T11:20:00Z",
+  "data_i_hora_sortida": "2024-04-04T14:45:00Z"
+},
+
+{
+  "_id": 1006,
+  "id_client": 100,
+  "matricula_cotxe": "5901E",
+  "planta": 2,
+  "zona": "A",
+  "numero": 8,
+  "carregador_cotxe_electric": true,
+  "porta_entrada": 3,
+  "porta_sortida": 2,
+  "data_i_hora_entrada": "2024-04-05T09:00:00Z",
+  "data_i_hora_sortida": "2024-04-05T13:30:00Z"
+}
+
