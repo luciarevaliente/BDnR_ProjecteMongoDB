@@ -1,0 +1,199 @@
+[
+  {
+    "_id": 50000,
+    "id_client": 100,
+    "productes": [
+      {
+        "codi": "001",
+        "nom": "Sofà",
+        "quantitat": 1,
+        "preu_unitari": 500
+      },
+      {
+        "codi": "002",
+        "nom": "Escriptori",
+        "quantitat": 1,
+        "preu_unitari": 270
+      }
+    ],
+    "data": "2024-03-30T14:00:00Z",
+    "total": 770
+  },
+  {
+    "_id": 50001,
+    "id_client": 105,
+    "productes": [
+      {
+        "codi": "001",
+        "nom": "Sofà",
+        "quantitat": 1,
+        "preu_unitari": 500
+      },
+      {
+        "codi": "002",
+        "nom": "Escriptori",
+        "quantitat": 1,
+        "preu_unitari": 270
+      }
+    ],
+    "data": "2024-03-30T14:00:00Z",
+    "total": 770
+  },
+  {
+    "_id": 50002,
+    "id_client": 106,
+    "productes": [
+      {
+        "codi": "003",
+        "nom": "Kit Pintura",
+        "quantitat": 1,
+        "preu_unitari": 235
+      }
+    ],
+    "data": "2024-04-01T12:00:00Z",
+    "total": 235
+  },
+  {
+    "_id": 50003,
+    "id_client": 104,
+    "productes": [
+      {
+        "codi": "002",
+        "nom": "Escriptori",
+        "quantitat": 1,
+        "preu_unitari": 270
+      },
+      {
+        "codi": "008",
+        "nom": "Kit per a Plantes",
+        "quantitat": 1,
+        "preu_unitari": 50
+      }
+    ],
+    "data": "2024-04-03T13:00:00Z",
+    "total": 320
+  },
+  {
+    "_id": 50004,
+    "id_client": 106,
+    "productes": [
+      {
+        "codi": "003",
+        "nom": "Kit Pintura",
+        "quantitat": 1,
+        "preu_unitari": 235
+      }
+    ],
+    "data": "2024-04-05T14:00:00Z",
+    "total": 235
+  },
+
+  {
+    "_id": 50005,
+    "id_client": 103,
+    "productes": [
+      {
+        "codi": "002",
+        "nom": "Escriptori",
+        "quantitat": 1,
+        "preu_unitari": 270
+      },
+      {
+        "codi": "008",
+        "nom": "Kit per a Plantes",
+        "quantitat": 1,
+        "preu_unitari": 50
+      }
+    ],
+    "data": "2024-04-05T10:00:00Z",
+    "total": 320
+  },
+  {
+    "_id": 50006,
+    "id_client": 104,
+    "productes": [
+      {
+        "codi": "002",
+        "nom": "Escriptori",
+        "quantitat": 1,
+        "preu_unitari": 270
+      },
+      {
+        "codi": "008",
+        "nom": "Kit per a Plantes",
+        "quantitat": 1,
+        "preu_unitari": 50
+      }
+    ],
+    "data": "2024-04-05T12:00:00Z",
+    "total": 320
+  },
+  {
+    "_id": 50007,
+    "id_client": 105,
+    "productes": [
+      {
+        "codi": "003",
+        "nom": "Kit Pintura",
+        "quantitat": 1,
+        "preu_unitari": 235
+      },
+      {
+        "codi": "005",
+        "nom": "Kit de Guitarra Elèctrica",
+        "quantitat": 1,
+        "preu_unitari": 350
+      }
+    ],
+    "data": "2024-04-05T14:00:00Z",
+    "total": 585
+  },
+  
+  {
+    "_id": 50008,
+    "id_client": 106,
+    "productes": [
+      {
+        "codi": "003",
+        "nom": "Kit Pintura",
+        "quantitat": 1,
+        "preu_unitari": 235
+      }
+    ],
+    "data": "2024-04-01T12:00:00Z",
+    "total": 235
+  },
+  {
+    "_id": 50009,
+    "id_client": 104,
+    "productes": [
+      {
+        "codi": "002",
+        "nom": "Escriptori",
+        "quantitat": 1,
+        "preu_unitari": 270
+      },
+      {
+        "codi": "008",
+        "nom": "Kit per a Plantes",
+        "quantitat": 1,
+        "preu_unitari": 50
+      }
+    ],
+    "data": "2024-04-03T13:00:00Z",
+    "total": 320
+  },
+  {
+    "_id": 50010,
+    "id_client": 106,
+    "productes": [
+      {
+        "codi": "003",
+        "nom": "Kit Pintura",
+        "quantitat": 1,
+        "preu_unitari": 235
+      }
+    ],
+    "data": "2024-04-05T14:00:00Z",
+    "total": 235
+  }
