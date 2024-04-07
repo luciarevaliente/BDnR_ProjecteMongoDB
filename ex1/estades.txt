@@ -1,6 +1,6 @@
 {
-  "_id": ObjectId("..."),  //Id de l'estada
-  "id_client": ObjectId("..."),  //Id del client que ha estacionat el cotxe
+  "_id": 1,  //Id de l'estada
+  "id_client": 1,  //Id del client que ha estacionat el cotxe
   "matricula_cotxe": "1234 ABC",  //Referència a la matrícula del cotxe
   
   //Dades pàrking
