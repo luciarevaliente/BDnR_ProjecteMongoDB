@@ -1,5 +1,5 @@
 {
-  "_id": ObjectId("..."), //id del client
+  "_id": 1, 
   "DNI": "12345678A",
   "nom": "Lucy",
   "cognom": "Superbrave",
