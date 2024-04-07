@@ -1,5 +1,5 @@
 {
-  "_id": ObjectId("..."),  //Id del tiquet
+  "_id": 1,  //Id del tiquet
   "id_client": ObjectId("..."),  //Referència a l'Id del client
   "productes": [  //Referència extesa productes
     {
