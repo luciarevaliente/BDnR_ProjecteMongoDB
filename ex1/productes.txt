@@ -1,5 +1,5 @@
 {
-  "_id": ObjectId("..."),
+  "_id": 1,
   "codi": "001",
   "nom": "Sofà",
   "fabricant": "Fàbrica Mobles S.A.",
