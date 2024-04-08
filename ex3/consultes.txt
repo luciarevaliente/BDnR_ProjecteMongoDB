@@ -92,6 +92,7 @@ db.tiquets.aggregate([
     ])
     
 // 9- Mostrar el nom i cognom dels clients que han comprat un producte en concret (de la vostra elecció) en algun dels seus tiquets (lookup)
+// Fem servir el codi de producte "001"
 db.tiquets.aggregate([
     {
         $unwind: "$productes"
