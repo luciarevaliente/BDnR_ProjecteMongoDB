@@ -1,0 +1,117 @@
+// 1- Nombre de clients atesos durant un mes/any en concret amb tiquet superior a 500€
+db.tiquets.aggregate([
+    {
+        $match: {total: {$gte: 500}}
+    }, {
+        $count: "Tiquets superiors a 500€"
+    }
+    ])
+
+// 2- Mostra la informació del client de Barcelona amb major edat
+db.clients.aggregate([
+    {
+        $match: {poblacio: "Barcelona"}
+    },{
+        $sort: {edat: -1}
+    },{
+        $limit: 1
+    }
+    ])
+
+// 3- Valor màxim, mínim i mitjà dels preus dels productes
+db.productes.aggregate([
+    {
+        $group: {
+            _id: null,
+            maxim: {$max: "$preu"},
+            minim: {$min: "$preu"},
+            mitjana: {$avg: "$preu"}
+            
+        }
+    },{
+        $project: {_id: 0}
+    }
+    ])
+    
+// 4- Mostra 5 clients que mai venen en cotxe a la tenda
+db.clients.find({_id: {$nin: db.estades.distinct("id_client")}}).limit(5)
+
+// 5- Foto actual del pàrquing (o en una data concreta). Mostrar plaça, dades del vehicle estacionat i el nom i cognom del client
+// Fem servir la data 2024-03-30 a l'hora 10:15:00
+db.estades.aggregate([
+    {
+        $match: {
+            data_i_hora_entrada: {$lte: ISODate("2024-03-30T10:15:00Z")},
+            data_i_hora_sortida: {$gte: ISODate("2024-03-30T10:15:00Z")},
+        }
+    },{
+        $lookup: {
+            from: "clients",
+            localField: "id_client",
+            foreignField: "_id",
+            as: "client"
+        }
+    },{
+        $unwind: "$client"
+    },{
+        $project: {
+            _id: 0,
+            plaça: {
+                $concat: [
+                    "Planta: ", "$planta", ". Zona: ", "$zona", ". Numero: ", "$numero"
+                ]
+            },
+            nom_client: "$client.nom",
+            cognom_client: "$client.cognom",
+            dades_vehicle: {
+                $arrayElemAt: [
+                    {
+                        $filter: {
+                            input: "$clien.cotxes",
+                            as: "coche",
+                            cond: { $eq: ["$$coche.matricula", "$matricula_cotxe"]}
+                        }
+                    }, 0]
+            }
+        }
+    }
+    ])
+
+// 6- Productes formats per més de 4 subproductes (pack)
+db.productes.find({$expr: {$gt: [{$size: "$productes_inclosos"}, 4]}})
+
+// 7- Llistat de productes agrupats per categoria
+db.productes.aggregate([
+    {$group: {_id: "$categoria", productos: {$push: "$$ROOT"}}}
+    ])
+    
+// 8- Nombre de tiquets segons el tipus de pagament
+db.tiquets.aggregate([
+    {$unwind: "$pagament"},
+    {$sortByCount: "$pagament"}
+    ])
+    
+// 9- Mostrar el nom i cognom dels clients que han comprat un producte en concret (de la vostra elecció) en algun dels seus tiquets (lookup)
+db.tiquets.aggregate([
+    {
+        $unwind: "$productes"
+    },{
+        $match: {"productes.codi": "001"}
+    }, {
+        $lookup: {
+            from: "clients",
+            localField: "id_client",
+            foreignField: "_id",
+            as: "clients"
+        }
+    },{
+        $unwind: "$clients"
+    },{
+        $project: {
+            _id: 0,
+            producte: "001",
+            nom: "$clients.nom",
+            cognom: "$clients.cognom"
+        }
+    }
+    ])
