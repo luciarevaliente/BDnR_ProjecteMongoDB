@@ -1,46 +1,61 @@
 #Carregar les dades des d'unfitxer JSON
+import argparse
+import pymongo 
 from pymongo import MongoClient
 import json
 
-# En execució remota
-Host = 'localhost'
+# Establim la connexió amb el port determinat
+Host = 'dcccluster.uab.cat'
 Port = 8209
 
+DSN = "mongodb://{}:{}".format(Host, Port)
+conn = MongoClient(DSN)
 
-def insert_data(json_file):
-    DSN = "mongodb://{}:{}".format(Host, Port)
-    conn = MongoClient(DSN)
-    db = conn['aplicacio']
-    productes = db['productes']
-    clients = db['clients']
-    tiquets = db['tiquets']
-    estades = db['estades']
+# Creem la base de dades
+db = conn['aplicacio']
+productes = db['productes']
+clients = db['clients']
+tiquets = db['tiquets']
+estades = db['estades']
 
-    # llegim JSON
-    with open(json_file, 'r') as file:
-        data = json.load(file)
+# Carreguem les dades a partir dels json
+with open('clients.json', 'r') as file:
+    cl = json.load(file)
 
-    #inserim dades
-    for cliente in data['clients']:
-        if clients.count_documents({'DNI': cliente['DNI']}) == 0:
-         clients.insert_one(cliente)
+for cliente in cl:
+    try:
+        clients.insert_one(cliente)
+    except pymongo.errors.DuplicateKeyError:
+        # El document ja existeix a la col·lecció
+       pass
 
-    for producto in data['productes']:
-        if productes.count_documents({'codi': producto['codi']}) == 0:
-            productes.insert_one(producto)
 
-    for tiquet in data['tiquets']:
-        if tiquets.count_documents({"id_client":tiquets['id_client']})==0:
+
+with open('productes.json', 'r') as file:
+    pr = json.load(file)
+for producto in pr:
+       try:
+           productes.insert_one(producto)
+       except pymongo.errors.DuplicateKeyError:
+           # El document ja existeix a la col·lecció
+           pass
+
+with open('tiquets.json', 'r') as file:
+    t = json.load(file)
+for tiquet in t:
+        try:
             tiquets.insert_one(tiquet)
+        except pymongo.errors.DuplicateKeyError:
+            # El document ja existeix a la col·lecció
+            pass
 
-    for estada in data['estades']:
-        if estades.count_documents({'matricula_cotxe':estades['matricula_cotxe']})==0:
+with open('estades.json', 'r') as file:
+    e = json.load(file)
+for estada in e:
+        try:
             estades.insert_one(estada)
+        except pymongo.errors.DuplicateKeyError:
+            # El document ja existeix a la col·lecció
+            pass
 
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='Inserim dades a una base de dades MongoDB.')
-    parser.add_argument('-f', '--file', type=str, help='Nom arxiu JSON de dades')
-
-    args = parser.parse_args()
-
-    insert_data(args.file)
+conn.close()
