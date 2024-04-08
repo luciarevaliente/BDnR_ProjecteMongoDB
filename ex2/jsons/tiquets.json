@@ -1,5 +1,4 @@
-
-  {
+[{
     "_id": 50000,
     "id_client": 100,
     "productes": [
@@ -208,3 +207,4 @@
     "total": 235,
     "pagament": "Crèdit"
   }
+]
